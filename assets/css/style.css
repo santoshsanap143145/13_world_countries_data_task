@@ -1,0 +1,128 @@
+
+html{
+    font-size: 10px;
+}
+
+.header{
+    padding: 1.8rem 0 1.2rem;
+    background-color: rgb(249, 238, 238);
+}
+.preHeading {
+    font-size: 5rem;
+    color: #ffa500;
+    font-weight: 600;
+}
+
+.secHeading {
+    font-size: 2.8rem;
+    color: #827b7b;
+    font-weight: 500;
+}
+
+#comment{
+    color: #ff8800;
+    font-size: 2rem;
+    font-style:italic;
+}
+
+
+
+
+
+.controlFun{
+    padding: 3rem 0 5rem;
+}
+
+.controlFun input{
+    height: 5rem;
+    background-color: rgb(242, 237, 237);
+    border: none;
+    border-radius: 3rem;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+}
+
+.controlFun input:is(:active, :focus, :hover){
+    border: 3px solid #ff8800;
+    color: #ff8800;
+    background-color: #f5daf5;
+}
+.sortButtons{
+    display: flex;
+    justify-content: center;
+}
+.sortButtons button{
+    background-color: #ff8800;
+    color: #2F4F4F;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: .8rem 5rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+}
+
+.sortButtons button i {
+    font-size: 2.5rem;
+    color: #2F4F4F;
+    margin-left: .6rem;
+}
+
+.sortButtons button:is(:hover, :active, :focus){
+    color: #ff8800;
+    background-color: #ffd29f;
+    outline: 3px solid #ff8800;
+    transform: scale(.8);
+}
+
+.sortButtons i{
+    color: #ff8800;
+    font-size: 6rem;
+}
+
+.sortButtons i:is(:hover, :active, :focus){
+    transform: scale(.8);
+    color:#ffb560;
+}
+
+
+.main{
+    background-color: rgb(249, 238, 238);
+}
+
+.countryCard{
+    margin: 1.5rem 0;
+}
+
+.countryCard .flag{
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    box-shadow: 3px 3px 20px rgb(207, 205, 205);
+}
+
+.countryCard .card-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ff8800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.countryCard{
+    height: 35rem;
+    overflow: hidden;
+}
+
+.countryCard .card-body .card-text{
+    font-size: 1.6rem;
+    color: #808eb5;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.countryCard .card-body .card-text span{
+    font-weight: bold;
+}
